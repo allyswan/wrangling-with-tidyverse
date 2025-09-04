@@ -6,7 +6,6 @@ output:
   html_document: default
   pdf_document: default
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -15,6 +14,7 @@ All the following question use the sttst_all_sites.xlsx file in the /data direct
 
 
 1. Import sttstj_all_sites and inspect the data set.  What is the data structure and the data type of each field?
+read_xlsx(sttstj_all_sites)
 
 2. How many samples are in the data set?         
 
